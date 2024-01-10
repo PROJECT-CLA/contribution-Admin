@@ -43,12 +43,12 @@ function PaymentMethod() {
         </MDTypography>
         <MDButton variant="gradient" color="dark">
           <Icon sx={{ fontWeight: "bold" }}>add</Icon>
-          &nbsp;add new card
+          &nbsp;Approve Loan
         </MDButton>
       </MDBox>
       <MDBox p={2}>
         <Grid container spacing={3}>
-          <Grid item xs={12} md={6}>
+           {/*<Grid item xs={12} md={6}>
             <MDBox
               borderRadius="lg"
               display="flex"
@@ -72,7 +72,7 @@ function PaymentMethod() {
                 </Tooltip>
               </MDBox>
             </MDBox>
-          </Grid>
+          </Grid> */}
           <Grid item xs={12} md={6}>
             <MDBox
               borderRadius="lg"
