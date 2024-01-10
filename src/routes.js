@@ -68,7 +68,7 @@ const routes = [
   {
     type: "collapse",
     name: "Trasactions",
-    key: "trasactions",
+    key: "transactions",
     icon: <Icon fontSize="small">receipt_long</Icon>,
     route: "/trasactions",
     component: <Billing />,
